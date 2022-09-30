@@ -3,14 +3,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 ### Built With
 
 * [![AndroidStudio][AndroidStudio]][AndroidLink]
@@ -23,34 +15,27 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Install Android Studio
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+   git clone https://github.com/agatti4/DiningHero.git
    ```
    
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+<img width="361" alt="Screen Shot 2021-12-16 at 6 24 56 PM" src="https://user-images.githubusercontent.com/100312747/193323966-14604c30-02c8-4d9a-af43-8943f1010f0c.png">
+
+<img width="364" alt="Screen Shot 2021-12-16 at 6 24 25 PM" src="https://user-images.githubusercontent.com/100312747/193323981-22dce412-d06b-4645-b87a-36a0755774c7.png">
+
+<img width="396" alt="Screen Shot 2021-11-09 at 9 27 04 PM" src="https://user-images.githubusercontent.com/100312747/193323914-81c90813-b52d-4734-a36c-a99c730dca54.png">
+
+<img width="376" alt="Screen Shot 2021-11-09 at 9 27 57 PM" src="https://user-images.githubusercontent.com/100312747/193323900-bbc9a455-55f2-49f8-ab0e-d27065f89eee.png">
+
+<img width="368" alt="Screen Shot 2021-12-15 at 8 41 47 PM" src="https://user-images.githubusercontent.com/100312747/193324015-fe6b169a-afe7-4228-80a3-398341a39adc.png">
+
 
 See the [open issues](https://github.com/agatti4/DiningHero/issues) for a full list of proposed features (and known issues).
 
