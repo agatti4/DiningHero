@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/helloNameEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="236dp"
+        android:text="Hello Name"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tableNumberEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="You Have Table #"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/helloNameEdit"
+        app:layout_constraintStart_toStartOf="@+id/helloNameEdit"
+        app:layout_constraintTop_toBottomOf="@+id/helloNameEdit" />
+
+    <TextView
+        android:id="@+id/reservedTimeEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Reserved at Time"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/tableNumberEdit"
+        app:layout_constraintStart_toStartOf="@+id/tableNumberEdit"
+        app:layout_constraintTop_toBottomOf="@+id/tableNumberEdit" />
+
+    <Button
+        android:id="@+id/confirmNameButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Confirm"
+        app:layout_constraintEnd_toEndOf="@+id/enterNameEdit"
+        app:layout_constraintStart_toStartOf="@+id/enterNameEdit"
+        app:layout_constraintTop_toBottomOf="@+id/enterNameEdit" />
+
+    <TextView
+        android:id="@+id/enterNamePlain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="228dp"
+        android:text="Enter Name:"
+        android:textColor="@android:color/black"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/enterNameEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/enterNamePlain"
+        app:layout_constraintStart_toStartOf="@+id/enterNamePlain"
+        app:layout_constraintTop_toBottomOf="@+id/enterNamePlain" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

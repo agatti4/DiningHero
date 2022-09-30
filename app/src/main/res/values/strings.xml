@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="order_takeout">Order Takeout</string>
+    <string name="emerson_dining_hall">Emerson Dining Hall</string>
+    <string name="reserve_table">Reserve Table</string>
+    <string name="chase_dining_hall">Chase Dining Hall</string>
+    <string name="welcome_to_dininghero">Welcome to DiningHero</string>
+</resources>

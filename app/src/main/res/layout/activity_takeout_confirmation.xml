@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TakeoutConfirmation">
+
+    <TextView
+        android:id="@+id/helloNameTakeEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Hello Name"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/thanksForOrderingEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Thanks For Ordering!"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helloNameTakeEdit" />
+
+    <TextView
+        android:id="@+id/recieptPlain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Reciept:"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@+id/thanksForOrderingEdit"
+        app:layout_constraintTop_toBottomOf="@+id/thanksForOrderingEdit" />
+
+    <ListView
+        android:id="@+id/cartListTake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/pickupPlain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recieptPlain">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/orderSumTake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="Order: 0 items totalling $0.00"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cartListTake" />
+
+    <TextView
+        android:id="@+id/pickupPlain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Pickup Order In 15 Min"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/thanksForOrderingEdit"
+        app:layout_constraintStart_toStartOf="@+id/thanksForOrderingEdit" />
+
+    <Button
+        android:id="@+id/confirmNameTakeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Confirm"
+        app:layout_constraintEnd_toEndOf="@+id/enterNameTakeEdit"
+        app:layout_constraintStart_toStartOf="@+id/enterNameTakeEdit"
+        app:layout_constraintTop_toBottomOf="@+id/enterNameTakeEdit" />
+
+    <TextView
+        android:id="@+id/enterNameTakePlain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="228dp"
+        android:text="Enter Name:"
+        android:textColor="@android:color/black"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/enterNameTakeEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/enterNameTakePlain"
+        app:layout_constraintStart_toStartOf="@+id/enterNameTakePlain"
+        app:layout_constraintTop_toBottomOf="@+id/enterNameTakePlain" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
