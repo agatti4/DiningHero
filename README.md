@@ -15,12 +15,8 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 * [![AndroidStudio][AndroidStudio]][AndroidLink]
 * [![Firebase][Firebase]][FirebaseLink]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [![Java][Java]][JavaLink]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,7 +135,9 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [AndroidStudio]: https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white
 [AndroidLink]: https://developer.android.com/studio
 [Firebase]: https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white
-[FirebaseLink]: https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white
+[FirebaseLink]: https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white](https://firebase.google.com
+[Java]: https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white
+[JavaLink]: https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white](https://www.java.com/en/
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
 [contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
