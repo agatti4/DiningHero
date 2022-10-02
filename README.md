@@ -2,6 +2,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+This is a final project I worked on with a group for my Moblie Computing class. It is a table reservation and ordering system for the different dining halls at Wheaton College.
 
 ### Built With
 
